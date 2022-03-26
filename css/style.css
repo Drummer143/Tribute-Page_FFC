@@ -58,7 +58,10 @@ blockquote {
     padding: 1rem;
 }
 
-#image {    
+#image {
+    display: block;
+    margin: 0 auto;
+    position: relative;
     max-width: 100%;
 }
 
@@ -81,6 +84,14 @@ blockquote {
 #q-author {
     padding-top: 1rem;
     text-align: right;
+}
+
+#tribute-link:hover {
+    text-decoration: none;
+}
+
+#tribute-link:visited {
+    color: black;
 }
 
 @media screen and (max-width: 800px) {
