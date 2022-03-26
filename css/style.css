@@ -28,6 +28,7 @@ blockquote {
 }
 
 .subtitle {
+    padding: 0 10px;
     font-size: 1.1rem;
 }
 
@@ -36,7 +37,7 @@ blockquote {
 }
 
 .note {
-    padding-bottom: 1rem;
+    padding: 0 20px 1rem 20px;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     font-weight: 700;
@@ -47,7 +48,7 @@ blockquote {
 }
 
 #title {
-    padding: 1rem 0;
+    padding: 1rem 10px;
 }
 
 #img-div {
@@ -62,11 +63,15 @@ blockquote {
 }
 
 #img-caption {
+    width: 100%;
     padding-top: 0.5rem;
+    margin: auto;
     font-style: italic;
 }
 
 #tribute-info {
+    padding-left: 40px;
+    padding-right: 20px;
     margin: 0 auto;
     max-width: 700px;
     line-height: 1.6;
@@ -76,4 +81,18 @@ blockquote {
 #q-author {
     padding-top: 1rem;
     text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 1rem !important;
+    }
+
+    h1 {
+        font-size: 1.4rem !important;
+    }
+
+    h2, .note {
+        font-size: 1.1rem !important;
+    }
 }
