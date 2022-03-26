@@ -1,0 +1,46 @@
+:root {
+    --background-color1: rgb(244, 242, 243);
+    --background-color2: #d4d4d4;
+}
+
+/* TODO: blockquote panel */
+
+body {
+    text-align: center;
+    background-color: var(--background-color1);
+}
+
+li {
+    text-align: left;
+}
+
+.note {
+    padding-bottom: 1rem;
+}
+
+#main {
+    background-color: var(--background-color2);
+}
+
+#title {
+    padding: 1rem;
+}
+
+#img-div {
+    box-shadow: 0px 0px 44px -44px rgba(34, 60, 80, 1);
+    background-color: var(--background-color1);
+    margin: 1rem 2rem;
+    padding: 1rem;
+}
+
+#image {    
+    max-width: 100%;
+}
+
+#img-caption {
+    font-style: italic;
+}
+
+#tribute-info {
+    font-size: 1.1rem;
+}
